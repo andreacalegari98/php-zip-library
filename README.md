@@ -1,2 +1,2 @@
 # php-zip-library
-Simple lightweight library to create zip files and unzip
+This simple lightweight library create and unzip zip files using PCL-ZIP.
