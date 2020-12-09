@@ -127,7 +127,7 @@ class Zip {
             // Only one file
             if(count($files) == 1) {
                 // Remove the last part and get only the path
-                $exp = explode("/", $files);
+                $exp = explode("/", $files[0]);
                 array_pop($exp);                
             }
             // More files
